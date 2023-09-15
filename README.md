@@ -13,7 +13,6 @@
 
 实现了商品的展示、商品分类查询、关键字搜索商品、商品详细信息展示、登录、注册、用户购物车、订单结算、用户订单、用户收藏列表以及错误处理功能。
 
-后端采取了MVC模式，根据前端需要的数据分模块设计了相应的接口、控制层、数据持久层。后端传送地址[store-server](https://github.com/hai-27/store-server) 。
 
 ## 技术栈
 
@@ -68,63 +67,6 @@
 ### 我的订单
 
 对用户的所有订单进行展示。
-
-## 运行项目
-
-**注意：**
-
-- 后端接口地址已经修改为线上的地址，本地运行会直接分为我部署在服务器的后端。
-- 为了方便测试，数据库数据没有加密，注册时切记**不要使用自己的常用密码**。
-- 如果需要自己运行后端，请移步到[store-server](https://github.com/hai-27/store-server) clone后端项目，并修改前端的接口地址为您的服务器地址。
-
-```
-1. Clone project
-
-git clone https://github.com/hai-27/vue-store.git
-
-2. Project setup
-
-cd vue-store
-npm install
-
-3. Compiles and hot-reloads for development
-
-npm run serve
-
-4. Compiles and minifies for production
-
-npm run build
-```
-## 页面截图
-
-**首页**
-
-![](https://raw.githubusercontent.com/hai-27/vue-store/master/public/screenshots/home.png)
-
-**全部商品**
-
-![](https://raw.githubusercontent.com/hai-27/vue-store/master/public/screenshots/goods.png)
-
-**购物车**
-
-![](https://raw.githubusercontent.com/hai-27/vue-store/master/public/screenshots/shoppingCart.png)
-
-**我的收藏**
-
-![](https://raw.githubusercontent.com/hai-27/vue-store/master/public/screenshots/collect.png)
-
-**我的订单**
-
-![](https://raw.githubusercontent.com/hai-27/vue-store/master/public/screenshots/order.png)
-
-**登录**
-
-![](https://raw.githubusercontent.com/hai-27/vue-store/master/public/screenshots/login.png)
-
-**注册**
-
-![](https://raw.githubusercontent.com/hai-27/vue-store/master/public/screenshots/register.png)
-
 
 
 
