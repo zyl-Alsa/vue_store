@@ -1,4 +1,4 @@
-# Store（参考小米商城）
+//# Store（参考小米商城）
 
 ## 说明
 
@@ -42,7 +42,8 @@
 
 用户输入的数据往往是不可靠的，所以本项目前后端同样都对注册信息进行了校验，前端基于element-ui的表单校验方式，自定义了校验规则进行校验。
 
-![image](https://github.com/zyl-Alsa/vue_store/assets/96423779/889ad4fb-58e9-4e22-8b83-2529fe387678)
+![Uploading image.png…]()
+
 
 
 
